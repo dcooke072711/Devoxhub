@@ -9,7 +9,6 @@ local player = players.LocalPlayer
 local categoryDragging = false
 
 local DevoxHub = {}; DevoxHub.__index = DevoxHub
-local objects = (runService:IsStudio() and game:GetService("ReplicatedStorage"):FindFirstChild("Bleachhack") or game:GetObjects("rbxassetid://17799632030")[1]):Clone()
 
 local IS_STUDIO = runService:IsStudio()
 local indent = " "
